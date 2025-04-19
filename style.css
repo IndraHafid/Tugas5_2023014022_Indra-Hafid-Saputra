@@ -1,0 +1,66 @@
+/* Mengatur font, background halaman, dan warna dasar teks */
+body {
+  font-family: 'Poppins', sans-serif;
+  background: url('image.jpeg') no-repeat center center fixed; /* Gambar bacground belakang (latar halaman) */
+  background-size: cover; /* Gambar menyesuaikan ukuran layar */
+  background-position: center top -1280px; /* Set posisis gambar*/
+  color: #fff; /* Warna tulisan di dalam kolom*/
+  margin: 0;
+  padding: 0;
+}
+  
+/* Kontainer tengah / kotak utama */
+.container {
+  max-width: 1000px; /* Maksimum lebar container */
+  margin: 40px auto; /* Tengah halaman secara horizontal dengan jarak atas 40px */
+  padding: 30px; /* Jarak isi ke tepi container */
+  background: url('logo.jpeg') no-repeat center top; /* Gambar di dalam container */
+  background-size: cover; /* Gambar sesuai ukuran container */
+  background-position-y: -265px; /* Set posisi backround */
+  border-radius: 15px; /* Sudut melengkung */
+  box-shadow: 0 0 30px rgba(0,0,0,0.6); /* Bayangan hitam lembut */
+  background-blend-mode: overlay; /* Gabungkan background dengan blur */
+}
+  
+/* Judul utama */
+h1 {
+  text-align: center; /* Teks rata tengah */
+  font-size: 2.5em; /* Ukuran huruf */
+  margin-bottom: 10px; /* Jarak bawah */
+  color: #00ffff; /* Warna cyan */
+}
+
+/* Subjudul */
+.subtitle {
+  text-align: center; /* Teks rata tengah */
+  font-size: 1.2em; /* Ukuran font */
+  color: #ccc; /* Warna huruf*/
+  margin-bottom: 30px; /* Jarak ke bawah */
+}
+
+/* Gaya umum tabel */
+table {
+  width: 100%; /* Lebar penuh container */
+  border-collapse: collapse; /* Hapus spasi antar border */
+  background-color: rgba(0, 0, 0, 0.2); /* Warna latar transparan gelap */
+}
+
+/* Gaya kolom judul dan data */
+th, td {
+  padding: 15px; /* Jarak isi ke pinggir */
+  text-align: center; /* Teks rata tengah */
+  border: 1px solid #555; /* Border*/
+}
+
+/* Tabel */
+thead {
+  background-color: rgba(0, 255, 255, 0.1); /* Latar kepala transparan cyan */
+  color: #00ffff; /* Warna teks cyan */
+}
+
+/* Efek hover pada baris */
+tbody tr:hover {
+  background-color: rgba(255, 255, 255, 0.1); 
+  transition: 0.3s ease; /* Efek transisi halus */
+}
+  
